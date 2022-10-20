@@ -1,0 +1,43 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#hd{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#skl{
+    background-color: rgb(255, 241, 91);
+    width: 50px;
+}
+.exp{
+    background-color: rgb(255, 241, 91);
+    width: 100px;
+}
+ul li::before {
+    content: "\2022";
+    color:rgb(75, 158, 231);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  .jb{
+    color: rgb(14, 98, 255);
+  }
+  #ed{
+    background-color:  rgb(255, 241, 91);
+    width: 100px;
+  }
+  .date{
+    background-color: rgb(0, 255, 170);
+    width: 260px;
+  }
+  .edu{
+    color: rgb(128, 0, 255);
+  }
+  .att{
+    background-color: rgb(255, 241, 91);
+    width: 85px;
+}
